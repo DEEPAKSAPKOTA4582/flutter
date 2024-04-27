@@ -1,5 +1,5 @@
 import 'package:batch32b/screen/arthmetic_screen.dart';
-import 'package:batch32b/screen/simpleinterest_screen.dart';
+
 import 'package:flutter/material.dart';
 // ignore: implementation_imports, unnecessary_import
 import 'package:flutter/src/widgets/framework.dart';
@@ -45,20 +45,7 @@ class DashboardScreen extends StatelessWidget {
                   height: 10,
                 ),
                 // for second Button
-                ElevatedButton(
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const SI(),
-                      ),
-                    );
-                  },
-                  child: const Text(
-                    "Simple Interest",
-                    style: TextStyle(fontSize: 25, color: Colors.red),
-                  ),
-                ),
+                
 
                 const SizedBox(
                   height: 10,
