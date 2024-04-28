@@ -8,7 +8,7 @@ class HelloWorldScreen extends StatelessWidget {
     return const Scaffold(
       body: Center(
         child: Text(
-          'Hello worldasdasdasdsad',
+          'Deepak Sapkota',
           style: TextStyle(
             fontSize: 30,
           ),
